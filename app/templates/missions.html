@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% import "cards.html" as cards with context %}
+
+{% block title %}{{ faction_label }} Missions{% endblock %}
+
+{% block content %}
+  <section class="page-head">
+    <div>
+      <p class="eyebrow">{{ faction_label }}</p>
+      <h1>Mission cards</h1>
+    </div>
+    <div class="tools">
+      <div class="filter-stack">
+        <div class="segmented">
+          <a class="{{ 'active' if game == 'base' else '' }}" href="/{{ side }}/missions?game=base">Base game</a>
+          <a class="{{ 'active' if game == 'rote' else '' }}" href="/{{ side }}/missions?game=rote&deck={{ deck }}">With expansion</a>
+        </div>
+        {% if game == 'rote' %}
+          <div class="segmented">
+            <a class="{{ 'active' if deck == 'base' else '' }}" href="/{{ side }}/missions?game=rote&deck=base">Base cards</a>
+            <a class="{{ 'active' if deck == 'rote' else '' }}" href="/{{ side }}/missions?game=rote&deck=rote">RotE cards</a>
+          </div>
+        {% endif %}
+      </div>
+      <input data-search type="search" placeholder="Search missions">
+    </div>
+  </section>
+
+  {% for group in groups %}
+    <section class="band skill-{{ group.key }}" data-section>
+      <div class="section-head">
+        <h2>{{ group.label }}</h2>
+        <span>{{ group.cards|length }} cards</span>
+      </div>
+      <div class="card-row">
+        {% for card in group.cards %}
+          {{ cards.sprite_card(card) }}
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
+{% endblock %}

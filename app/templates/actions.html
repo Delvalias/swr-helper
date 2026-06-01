@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% import "cards.html" as cards with context %}
+
+{% block title %}{{ faction_label }} Actions{% endblock %}
+
+{% block content %}
+  <section class="page-head">
+    <div>
+      <p class="eyebrow">{{ faction_label }}</p>
+      <h1>Leaders and action cards</h1>
+    </div>
+    <input data-search type="search" placeholder="Search leaders or cards">
+  </section>
+
+  <section class="band" data-section>
+    <div class="section-head">
+      <h2>Starting Action Cards</h2>
+      <span>{{ starting|length }} cards</span>
+    </div>
+    <div class="card-grid">
+      {% for card in starting %}
+        {{ cards.sprite_card(card) }}
+      {% endfor %}
+    </div>
+  </section>
+
+  <div class="action-set-grid">
+    {% for set in sets %}
+      <section class="band action-set" data-section>
+        <div class="section-head">
+          <h2>{{ set.name }}</h2>
+          <span>{{ set.actions|length }} cards</span>
+        </div>
+        <div class="leader-strip action-leaders">
+          {% for leader in set.leaders %}
+            {{ cards.leader_tile(leader) }}
+          {% endfor %}
+        </div>
+        <div class="card-grid action-cards">
+          {% for card in set.actions %}
+            {{ cards.sprite_card(card) }}
+          {% endfor %}
+        </div>
+      </section>
+    {% endfor %}
+  </div>
+
+  <section class="band" data-section>
+    <div class="section-head">
+      <h2>All Leaders</h2>
+      <span>{{ leaders|length }} leaders</span>
+    </div>
+    <div class="leader-grid">
+      {% for leader in leaders %}
+        {{ cards.leader_tile(leader) }}
+      {% endfor %}
+    </div>
+  </section>
+{% endblock %}

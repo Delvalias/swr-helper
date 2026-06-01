@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% import "cards.html" as cards with context %}
+
+{% block title %}Rebel Objectives{% endblock %}
+
+{% block content %}
+  <section class="page-head">
+    <div>
+      <p class="eyebrow">Rebels</p>
+      <h1>Objective cards</h1>
+    </div>
+    <div class="tools">
+      <div class="segmented">
+        <a class="{{ 'active' if expansion == 'base' else '' }}" href="/rebels/objectives?expansion=base">Base</a>
+        <a class="{{ 'active' if expansion == 'all' else '' }}" href="/rebels/objectives?expansion=all">Base + RotE</a>
+      </div>
+      <input data-search type="search" placeholder="Search objectives">
+    </div>
+  </section>
+
+  {% for group in groups %}
+    <section class="band" data-section>
+      <div class="section-head">
+        <h2>{{ group.label }}</h2>
+        <span>{{ group.cards|length }} cards</span>
+      </div>
+      <div class="card-row">
+        {% for card in group.cards %}
+          {{ cards.sprite_card(card) }}
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
+{% endblock %}

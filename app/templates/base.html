@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}Star Wars Rebellion Helper{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/styles.css') }}">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/rebels/actions">Rebellion Helper</a>
+      <nav class="nav">
+        <a href="/rebels/actions" class="{{ 'active' if active == 'rebel-actions' else '' }}">Rebel Actions</a>
+        <a href="/imperial/actions" class="{{ 'active' if active == 'imperial-actions' else '' }}">Imperial Actions</a>
+        <a href="/rebels/missions" data-remember-page="/rebels/missions" class="{{ 'active' if active == 'rebel-missions' else '' }}">Rebel Missions</a>
+        <a href="/imperial/missions" data-remember-page="/imperial/missions" class="{{ 'active' if active == 'imperial-missions' else '' }}">Imperial Missions</a>
+        <a href="/rebels/objectives" data-remember-page="/rebels/objectives" class="{{ 'active' if active == 'rebel-objectives' else '' }}">Objectives</a>
+      </nav>
+    </header>
+
+    <main class="page">
+      {% block content %}{% endblock %}
+    </main>
+
+    <script>
+      (() => {
+        const rememberedPaths = new Set([
+          "/rebels/missions",
+          "/imperial/missions",
+          "/rebels/objectives",
+        ]);
+        const keyFor = (path) => `rebellion-helper:last-view:${path}`;
+
+        try {
+          if (rememberedPaths.has(window.location.pathname)) {
+            const storageKey = keyFor(window.location.pathname);
+            const savedUrl = window.localStorage.getItem(storageKey);
+            if (!window.location.search && savedUrl) {
+              window.location.replace(savedUrl);
+              return;
+            }
+            if (window.location.search) {
+              window.localStorage.setItem(storageKey, `${window.location.pathname}${window.location.search}`);
+            }
+          }
+
+          document.querySelectorAll("[data-remember-page]").forEach((link) => {
+            const path = link.dataset.rememberPage;
+            const savedUrl = window.localStorage.getItem(keyFor(path));
+            if (savedUrl) {
+              link.setAttribute("href", savedUrl);
+            }
+          });
+        } catch {
+          return;
+        }
+      })();
+
+      const search = document.querySelector("[data-search]");
+      if (search) {
+        search.addEventListener("input", () => {
+          const query = search.value.trim().toLowerCase();
+          document.querySelectorAll("[data-card]").forEach((card) => {
+            const text = card.dataset.searchText || "";
+            card.hidden = query.length > 0 && !text.includes(query);
+          });
+          document.querySelectorAll("[data-section]").forEach((section) => {
+            const visible = section.querySelector("[data-card]:not([hidden])");
+            section.hidden = !visible;
+          });
+        });
+      }
+    </script>
+  </body>
+</html>

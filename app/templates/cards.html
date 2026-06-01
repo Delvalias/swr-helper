@@ -1,0 +1,38 @@
+{% macro sprite_card(card) %}
+  <article class="card-tile" data-card data-search-text="{{ (card.title ~ ' ' ~ card.description ~ ' ' ~ card.leader ~ ' ' ~ card.source)|lower }}">
+    <div class="card-frame">
+      <div
+        class="card-image"
+        role="img"
+        aria-label="{{ card.title }}"
+        style="--cols: {{ card.sprite.cols }}; --rows: {{ card.sprite.rows }}; --x: {{ card.sprite.x }}; --y: {{ card.sprite.y }}; background-image: url('{{ url_for('static', path=card.sprite.path) }}');">
+      </div>
+      {% if card.count and card.count > 1 %}
+        <span class="count-badge">{{ card.count }}</span>
+      {% endif %}
+    </div>
+    <div class="card-meta">
+      <h3>{{ card.title }}</h3>
+      <div class="badges">
+        {% if card.source == "rote" %}<span>RotE</span>{% else %}<span>Base</span>{% endif %}
+        {% if card.leader %}<span>{{ card.leader }}</span>{% endif %}
+        {% if card.vader_icon %}<span>Vader icon</span>{% endif %}
+      </div>
+    </div>
+  </article>
+{% endmacro %}
+
+{% macro leader_tile(leader) %}
+  <article class="leader-tile" data-card data-search-text="{{ (leader.name ~ ' ' ~ leader.role ~ ' ' ~ leader.source)|lower }}">
+    {% if leader.image %}
+      <img src="{{ url_for('static', path=leader.image) }}" alt="{{ leader.name }}">
+    {% endif %}
+    <div>
+      <h3>{{ leader.name }}</h3>
+      <p>{{ leader.role }}</p>
+      <div class="badges">
+        {% if leader.source == "rote" %}<span>RotE</span>{% else %}<span>Base</span>{% endif %}
+      </div>
+    </div>
+  </article>
+{% endmacro %}

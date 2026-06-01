@@ -1,0 +1,3769 @@
+{
+  "generated_from": "/Users/mihailk/Library/Tabletop Simulator",
+  "factions": {
+    "rebel": {
+      "leaders": [
+        {
+          "name": "Admiral Ackbar",
+          "role": "Rebel Admiral",
+          "source": "base",
+          "image": "/assets/leaders/admiral-ackbar.jpg"
+        },
+        {
+          "name": "Chewbacca",
+          "role": "Rebel General",
+          "source": "base",
+          "image": "/assets/leaders/chewbacca.jpg"
+        },
+        {
+          "name": "General Madine",
+          "role": "Rebel General",
+          "source": "base",
+          "image": "/assets/leaders/general-madine.jpg"
+        },
+        {
+          "name": "General Rieekan",
+          "role": "Rebel General",
+          "source": "base",
+          "image": "/assets/leaders/general-rieekan.jpg"
+        },
+        {
+          "name": "Han Solo",
+          "role": "Rebel Admiral",
+          "source": "base",
+          "image": "/assets/leaders/han-solo.jpg"
+        },
+        {
+          "name": "Jan Dodonna",
+          "role": "Rebel Admiral",
+          "source": "base",
+          "image": "/assets/leaders/jan-dodonna.jpg"
+        },
+        {
+          "name": "Jedi Luke Skywalker",
+          "role": "Rebel General",
+          "source": "base",
+          "image": "/assets/leaders/jedi-luke-skywalker.jpg"
+        },
+        {
+          "name": "Lando Calrissian",
+          "role": "Rebel Admiral",
+          "source": "base",
+          "image": "/assets/leaders/lando-calrissian.jpg"
+        },
+        {
+          "name": "Luke Skywalker",
+          "role": "Rebel General",
+          "source": "base",
+          "image": "/assets/leaders/luke-skywalker.jpg"
+        },
+        {
+          "name": "Mon Mothma",
+          "role": "Rebel Admiral",
+          "source": "base",
+          "image": "/assets/leaders/mon-mothma.jpg"
+        },
+        {
+          "name": "Obi-Wan Kenobi",
+          "role": "Rebel General",
+          "source": "base",
+          "image": "/assets/leaders/obi-wan-kenobi.jpg"
+        },
+        {
+          "name": "Princess Leia",
+          "role": "Rebel General",
+          "source": "base",
+          "image": "/assets/leaders/princess-leia.jpg"
+        },
+        {
+          "name": "Wedge Antilles",
+          "role": "Rebel Admiral",
+          "source": "base",
+          "image": "/assets/leaders/wedge-antilles.jpg"
+        },
+        {
+          "name": "Cassian Andor",
+          "role": "Rebel Admiral",
+          "source": "rote",
+          "image": "/assets/leaders/cassian-andor.jpg"
+        },
+        {
+          "name": "Chirrut Imwe",
+          "role": "Rebel General",
+          "source": "rote",
+          "image": "/assets/leaders/chirrut-imwe.jpg"
+        },
+        {
+          "name": "Jyn Erso",
+          "role": "Rebel Admiral",
+          "source": "rote",
+          "image": "/assets/leaders/jyn-erso.jpg"
+        },
+        {
+          "name": "Saw Gerrera",
+          "role": "Rebel General",
+          "source": "rote",
+          "image": "/assets/leaders/saw-gerrera.jpg"
+        }
+      ],
+      "starting_actions": [
+        {
+          "id": 30600,
+          "title": "Resourceful Astromech",
+          "description": "Action, Starting",
+          "source": "base",
+          "leader": "",
+          "vader_icon": false,
+          "include_in_base": false,
+          "skill": "unknown",
+          "sprite": {
+            "path": "/assets/sheets/306.jpg",
+            "deck": 306,
+            "index": 0,
+            "x": 0,
+            "y": 0,
+            "cols": 10,
+            "rows": 2
+          }
+        },
+        {
+          "id": 30601,
+          "title": "Human-Cyborg Relations",
+          "description": "Action, Starting",
+          "source": "base",
+          "leader": "",
+          "vader_icon": false,
+          "include_in_base": false,
+          "skill": "unknown",
+          "sprite": {
+            "path": "/assets/sheets/306.jpg",
+            "deck": 306,
+            "index": 1,
+            "x": 1,
+            "y": 0,
+            "cols": 10,
+            "rows": 2
+          }
+        },
+        {
+          "id": 30602,
+          "title": "Start the Evacuation",
+          "description": "Action, Starting",
+          "source": "base",
+          "leader": "",
+          "vader_icon": false,
+          "include_in_base": false,
+          "skill": "unknown",
+          "sprite": {
+            "path": "/assets/sheets/306.jpg",
+            "deck": 306,
+            "index": 2,
+            "x": 2,
+            "y": 0,
+            "cols": 10,
+            "rows": 2
+          }
+        },
+        {
+          "id": 30603,
+          "title": "Our Most Desperate Hour",
+          "description": "Action, Starting",
+          "source": "base",
+          "leader": "",
+          "vader_icon": false,
+          "include_in_base": false,
+          "skill": "unknown",
+          "sprite": {
+            "path": "/assets/sheets/306.jpg",
+            "deck": 306,
+            "index": 3,
+            "x": 3,
+            "y": 0,
+            "cols": 10,
+            "rows": 2
+          }
+        },
+        {
+          "id": 30604,
+          "title": "Rebel Planning",
+          "description": "Action, Starting",
+          "source": "base",
+          "leader": "",
+          "vader_icon": false,
+          "include_in_base": false,
+          "skill": "unknown",
+          "sprite": {
+            "path": "/assets/sheets/306.jpg",
+            "deck": 306,
+            "index": 4,
+            "x": 4,
+            "y": 0,
+            "cols": 10,
+            "rows": 2
+          }
+        },
+        {
+          "id": 30605,
+          "title": "Temporary Alliance",
+          "description": "Action, Starting",
+          "source": "base",
+          "leader": "",
+          "vader_icon": false,
+          "include_in_base": false,
+          "skill": "unknown",
+          "sprite": {
+            "path": "/assets/sheets/306.jpg",
+            "deck": 306,
+            "index": 5,
+            "x": 5,
+            "y": 0,
+            "cols": 10,
+            "rows": 2
+          }
+        },
+        {
+          "id": 32008,
+          "title": "False Orders",
+          "description": "ROTE, Action, Starting, Rebel",
+          "source": "rote",
+          "leader": "",
+          "vader_icon": false,
+          "include_in_base": false,
+          "skill": "unknown",
+          "sprite": {
+            "path": "/assets/sheets/320.jpg",
+            "deck": 320,
+            "index": 8,
+            "x": 2,
+            "y": 1,
+            "cols": 6,
+            "rows": 3
+          }
+        },
+        {
+          "id": 32009,
+          "title": "Rebel Extremist",
+          "description": "ROTE, Action, Starting, Rebel",
+          "source": "rote",
+          "leader": "",
+          "vader_icon": false,
+          "include_in_base": false,
+          "skill": "unknown",
+          "sprite": {
+            "path": "/assets/sheets/320.jpg",
+            "deck": 320,
+            "index": 9,
+            "x": 3,
+            "y": 1,
+            "cols": 6,
+            "rows": 3
+          }
+        }
+      ],
+      "action_sets": [
+        {
+          "name": "Luke and Wedge",
+          "leaders": [
+            {
+              "name": "Luke Skywalker",
+              "role": "Rebel General",
+              "source": "base",
+              "image": "/assets/leaders/luke-skywalker.jpg"
+            },
+            {
+              "name": "Wedge Antilles",
+              "role": "Rebel Admiral",
+              "source": "base",
+              "image": "/assets/leaders/wedge-antilles.jpg"
+            }
+          ],
+          "actions": [
+            {
+              "id": 27106,
+              "title": "Son of Skywalker",
+              "description": "Action",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/271.jpg",
+                "deck": 271,
+                "index": 6,
+                "x": 6,
+                "y": 0,
+                "cols": 10,
+                "rows": 2
+              }
+            },
+            {
+              "id": 27107,
+              "title": "Target the Star Destroyers",
+              "description": "Action",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/271.jpg",
+                "deck": 271,
+                "index": 7,
+                "x": 7,
+                "y": 0,
+                "cols": 10,
+                "rows": 2
+              }
+            },
+            {
+              "id": 27108,
+              "title": "One in a Million",
+              "description": "Action",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/271.jpg",
+                "deck": 271,
+                "index": 8,
+                "x": 8,
+                "y": 0,
+                "cols": 10,
+                "rows": 2
+              }
+            }
+          ]
+        },
+        {
+          "name": "Ackbar and Madine",
+          "leaders": [
+            {
+              "name": "Admiral Ackbar",
+              "role": "Rebel Admiral",
+              "source": "base",
+              "image": "/assets/leaders/admiral-ackbar.jpg"
+            },
+            {
+              "name": "General Madine",
+              "role": "Rebel General",
+              "source": "base",
+              "image": "/assets/leaders/general-madine.jpg"
+            }
+          ],
+          "actions": [
+            {
+              "id": 27109,
+              "title": "It's a Trap",
+              "description": "Action",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/271.jpg",
+                "deck": 271,
+                "index": 9,
+                "x": 9,
+                "y": 0,
+                "cols": 10,
+                "rows": 2
+              }
+            },
+            {
+              "id": 27111,
+              "title": "Point-Blank Assault",
+              "description": "Action",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/271.jpg",
+                "deck": 271,
+                "index": 11,
+                "x": 1,
+                "y": 1,
+                "cols": 10,
+                "rows": 2
+              }
+            },
+            {
+              "id": 27117,
+              "title": "Ambush",
+              "description": "Action",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/271.jpg",
+                "deck": 271,
+                "index": 17,
+                "x": 7,
+                "y": 1,
+                "cols": 10,
+                "rows": 2
+              }
+            }
+          ]
+        },
+        {
+          "name": "Han and Chewbacca",
+          "leaders": [
+            {
+              "name": "Han Solo",
+              "role": "Rebel Admiral",
+              "source": "base",
+              "image": "/assets/leaders/han-solo.jpg"
+            },
+            {
+              "name": "Chewbacca",
+              "role": "Rebel General",
+              "source": "base",
+              "image": "/assets/leaders/chewbacca.jpg"
+            }
+          ],
+          "actions": [
+            {
+              "id": 27110,
+              "title": "An Old Friend",
+              "description": "Action",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/271.jpg",
+                "deck": 271,
+                "index": 10,
+                "x": 0,
+                "y": 1,
+                "cols": 10,
+                "rows": 2
+              }
+            },
+            {
+              "id": 27112,
+              "title": "The Millennium Falcon",
+              "description": "Action",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/271.jpg",
+                "deck": 271,
+                "index": 12,
+                "x": 2,
+                "y": 1,
+                "cols": 10,
+                "rows": 2
+              }
+            },
+            {
+              "id": 27113,
+              "title": "Wookiee Guardian",
+              "description": "Action",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/271.jpg",
+                "deck": 271,
+                "index": 13,
+                "x": 3,
+                "y": 1,
+                "cols": 10,
+                "rows": 2
+              }
+            }
+          ]
+        },
+        {
+          "name": "Obi-Wan and Lando",
+          "leaders": [
+            {
+              "name": "Obi-Wan Kenobi",
+              "role": "Rebel General",
+              "source": "base",
+              "image": "/assets/leaders/obi-wan-kenobi.jpg"
+            },
+            {
+              "name": "Lando Calrissian",
+              "role": "Rebel Admiral",
+              "source": "base",
+              "image": "/assets/leaders/lando-calrissian.jpg"
+            }
+          ],
+          "actions": [
+            {
+              "id": 27115,
+              "title": "Noble Sacrifice",
+              "description": "Action",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/271.jpg",
+                "deck": 271,
+                "index": 15,
+                "x": 5,
+                "y": 1,
+                "cols": 10,
+                "rows": 2
+              }
+            },
+            {
+              "id": 27114,
+              "title": "Independent Operation",
+              "description": "Action",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/271.jpg",
+                "deck": 271,
+                "index": 14,
+                "x": 4,
+                "y": 1,
+                "cols": 10,
+                "rows": 2
+              }
+            },
+            {
+              "id": 27116,
+              "title": "Undercover",
+              "description": "Action",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/271.jpg",
+                "deck": 271,
+                "index": 16,
+                "x": 6,
+                "y": 1,
+                "cols": 10,
+                "rows": 2
+              }
+            }
+          ]
+        },
+        {
+          "name": "Jyn and Cassian",
+          "leaders": [
+            {
+              "name": "Jyn Erso",
+              "role": "Rebel Admiral",
+              "source": "rote",
+              "image": "/assets/leaders/jyn-erso.jpg"
+            },
+            {
+              "name": "Cassian Andor",
+              "role": "Rebel Admiral",
+              "source": "rote",
+              "image": "/assets/leaders/cassian-andor.jpg"
+            }
+          ],
+          "actions": [
+            {
+              "id": 32012,
+              "title": "He Means Well",
+              "description": "ROTE, Action, Rebel",
+              "source": "rote",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/320.jpg",
+                "deck": 320,
+                "index": 12,
+                "x": 0,
+                "y": 2,
+                "cols": 6,
+                "rows": 3
+              }
+            },
+            {
+              "id": 32013,
+              "title": "Something to Fight for",
+              "description": "ROTE, Action, Rebel",
+              "source": "rote",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/320.jpg",
+                "deck": 320,
+                "index": 13,
+                "x": 1,
+                "y": 2,
+                "cols": 6,
+                "rows": 3
+              }
+            },
+            {
+              "id": 32014,
+              "title": "Trust in the Force",
+              "description": "ROTE, Action, Rebel",
+              "source": "rote",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/320.jpg",
+                "deck": 320,
+                "index": 14,
+                "x": 2,
+                "y": 2,
+                "cols": 6,
+                "rows": 3
+              }
+            }
+          ]
+        },
+        {
+          "name": "Chirrut and Saw",
+          "leaders": [
+            {
+              "name": "Chirrut Imwe",
+              "role": "Rebel General",
+              "source": "rote",
+              "image": "/assets/leaders/chirrut-imwe.jpg"
+            },
+            {
+              "name": "Saw Gerrera",
+              "role": "Rebel General",
+              "source": "rote",
+              "image": "/assets/leaders/saw-gerrera.jpg"
+            }
+          ],
+          "actions": [
+            {
+              "id": 32010,
+              "title": "Son of Skywalker",
+              "description": "ROTE, Action, Rebel",
+              "source": "rote",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/320.jpg",
+                "deck": 320,
+                "index": 10,
+                "x": 4,
+                "y": 1,
+                "cols": 6,
+                "rows": 3
+              }
+            },
+            {
+              "id": 32011,
+              "title": "Baze's Loyalty",
+              "description": "ROTE, Action, Rebel",
+              "source": "rote",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/320.jpg",
+                "deck": 320,
+                "index": 11,
+                "x": 5,
+                "y": 1,
+                "cols": 6,
+                "rows": 3
+              }
+            },
+            {
+              "id": 32015,
+              "title": "Under the Radar",
+              "description": "ROTE, Action, Rebel",
+              "source": "rote",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/320.jpg",
+                "deck": 320,
+                "index": 15,
+                "x": 3,
+                "y": 2,
+                "cols": 6,
+                "rows": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "imperial": {
+      "leaders": [
+        {
+          "name": "Admiral Ozzel",
+          "role": "Imperial Admiral",
+          "source": "base",
+          "image": "/assets/leaders/admiral-ozzel.jpg"
+        },
+        {
+          "name": "Admiral Piett",
+          "role": "Imperial Admiral",
+          "source": "base",
+          "image": "/assets/leaders/admiral-piett.jpg"
+        },
+        {
+          "name": "Boba Fett",
+          "role": "Imperial General",
+          "source": "base",
+          "image": "/assets/leaders/boba-fett.jpg"
+        },
+        {
+          "name": "Colonel Yularen",
+          "role": "Imperial General",
+          "source": "base",
+          "image": "/assets/leaders/colonel-yularen.jpg"
+        },
+        {
+          "name": "Darth Vader",
+          "role": "Imperial General",
+          "source": "base",
+          "image": "/assets/leaders/darth-vader.jpg"
+        },
+        {
+          "name": "Emperor Palpatine",
+          "role": "Imperial Admiral",
+          "source": "base",
+          "image": "/assets/leaders/emperor-palpatine.jpg"
+        },
+        {
+          "name": "General Tagge",
+          "role": "Imperial General",
+          "source": "base",
+          "image": "/assets/leaders/general-tagge.jpg"
+        },
+        {
+          "name": "General Veers",
+          "role": "Imperial General",
+          "source": "base",
+          "image": "/assets/leaders/general-veers.jpg"
+        },
+        {
+          "name": "Grand Moff Tarkin",
+          "role": "Imperial Admiral",
+          "source": "base",
+          "image": "/assets/leaders/grand-moff-tarkin.jpg"
+        },
+        {
+          "name": "Janus Greejatus",
+          "role": "Imperial Admiral",
+          "source": "base",
+          "image": "/assets/leaders/janus-greejatus.jpg"
+        },
+        {
+          "name": "Moff Jerjerrod",
+          "role": "Imperial General",
+          "source": "base",
+          "image": ""
+        },
+        {
+          "name": "Soontir Fel",
+          "role": "Imperial Admiral",
+          "source": "base",
+          "image": "/assets/leaders/soontir-fel.jpg"
+        },
+        {
+          "name": "Admiral Motti",
+          "role": "Imperial Admiral",
+          "source": "rote",
+          "image": "/assets/leaders/admiral-motti.jpg"
+        },
+        {
+          "name": "Director Krennic",
+          "role": "Imperial Admiral",
+          "source": "rote",
+          "image": "/assets/leaders/director-krennic.jpg"
+        },
+        {
+          "name": "Jabba the Hutt",
+          "role": "Imperial General",
+          "source": "rote",
+          "image": "/assets/leaders/jabba-the-hutt.jpg"
+        },
+        {
+          "name": "Krennic's Finest",
+          "role": "Imperial General",
+          "source": "rote",
+          "image": "/assets/leaders/krennic-s-finest.jpg"
+        }
+      ],
+      "starting_actions": [
+        {
+          "id": 27500,
+          "title": "According to My Design",
+          "description": "Action, Starting",
+          "source": "base",
+          "leader": "",
+          "vader_icon": false,
+          "include_in_base": false,
+          "skill": "unknown",
+          "sprite": {
+            "path": "/assets/sheets/275.jpg",
+            "deck": 275,
+            "index": 0,
+            "x": 0,
+            "y": 0,
+            "cols": 10,
+            "rows": 2
+          }
+        },
+        {
+          "id": 27501,
+          "title": "It Is Your Destiny",
+          "description": "Action, Starting",
+          "source": "base",
+          "leader": "",
+          "vader_icon": false,
+          "include_in_base": false,
+          "skill": "unknown",
+          "sprite": {
+            "path": "/assets/sheets/275.jpg",
+            "deck": 275,
+            "index": 1,
+            "x": 1,
+            "y": 0,
+            "cols": 10,
+            "rows": 2
+          }
+        },
+        {
+          "id": 27502,
+          "title": "Brilliant Administrator",
+          "description": "Action, Starting",
+          "source": "base",
+          "leader": "",
+          "vader_icon": false,
+          "include_in_base": false,
+          "skill": "unknown",
+          "sprite": {
+            "path": "/assets/sheets/275.jpg",
+            "deck": 275,
+            "index": 2,
+            "x": 2,
+            "y": 0,
+            "cols": 10,
+            "rows": 2
+          }
+        },
+        {
+          "id": 27503,
+          "title": "More Dangerous Than You Realize",
+          "description": "Action, Starting",
+          "source": "base",
+          "leader": "",
+          "vader_icon": false,
+          "include_in_base": false,
+          "skill": "unknown",
+          "sprite": {
+            "path": "/assets/sheets/275.jpg",
+            "deck": 275,
+            "index": 3,
+            "x": 3,
+            "y": 0,
+            "cols": 10,
+            "rows": 2
+          }
+        },
+        {
+          "id": 32000,
+          "title": "Early Promotion",
+          "description": "ROTE, Imperial, Action, Starting",
+          "source": "rote",
+          "leader": "",
+          "vader_icon": false,
+          "include_in_base": false,
+          "skill": "unknown",
+          "sprite": {
+            "path": "/assets/sheets/320.jpg",
+            "deck": 320,
+            "index": 0,
+            "x": 0,
+            "y": 0,
+            "cols": 6,
+            "rows": 3
+          }
+        },
+        {
+          "id": 32001,
+          "title": "Track Them",
+          "description": "ROTE, Imperial, Action, Starting",
+          "source": "rote",
+          "leader": "",
+          "vader_icon": false,
+          "include_in_base": false,
+          "skill": "unknown",
+          "sprite": {
+            "path": "/assets/sheets/320.jpg",
+            "deck": 320,
+            "index": 1,
+            "x": 1,
+            "y": 0,
+            "cols": 6,
+            "rows": 3
+          }
+        }
+      ],
+      "action_sets": [
+        {
+          "name": "Boba and Janus",
+          "leaders": [
+            {
+              "name": "Boba Fett",
+              "role": "Imperial General",
+              "source": "base",
+              "image": "/assets/leaders/boba-fett.jpg"
+            },
+            {
+              "name": "Janus Greejatus",
+              "role": "Imperial Admiral",
+              "source": "base",
+              "image": "/assets/leaders/janus-greejatus.jpg"
+            }
+          ],
+          "actions": [
+            {
+              "id": 27604,
+              "title": "Boba Fett? Where?",
+              "description": "Action\n",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/276.jpg",
+                "deck": 276,
+                "index": 4,
+                "x": 4,
+                "y": 0,
+                "cols": 10,
+                "rows": 2
+              }
+            },
+            {
+              "id": 27605,
+              "title": "Blindside",
+              "description": "Action\n",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/276.jpg",
+                "deck": 276,
+                "index": 5,
+                "x": 5,
+                "y": 0,
+                "cols": 10,
+                "rows": 2
+              }
+            },
+            {
+              "id": 27606,
+              "title": "Public Support",
+              "description": "Action\n",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/276.jpg",
+                "deck": 276,
+                "index": 6,
+                "x": 6,
+                "y": 0,
+                "cols": 10,
+                "rows": 2
+              }
+            }
+          ]
+        },
+        {
+          "name": "Veers and Piett",
+          "leaders": [
+            {
+              "name": "General Veers",
+              "role": "Imperial General",
+              "source": "base",
+              "image": "/assets/leaders/general-veers.jpg"
+            },
+            {
+              "name": "Admiral Piett",
+              "role": "Imperial Admiral",
+              "source": "base",
+              "image": "/assets/leaders/admiral-piett.jpg"
+            }
+          ],
+          "actions": [
+            {
+              "id": 27607,
+              "title": "Target The Generator",
+              "description": "Action\n",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/276.jpg",
+                "deck": 276,
+                "index": 7,
+                "x": 7,
+                "y": 0,
+                "cols": 10,
+                "rows": 2
+              }
+            },
+            {
+              "id": 27608,
+              "title": "Keep Them From Escaping",
+              "description": "Action\n",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/276.jpg",
+                "deck": 276,
+                "index": 8,
+                "x": 8,
+                "y": 0,
+                "cols": 10,
+                "rows": 2
+              }
+            },
+            {
+              "id": 27609,
+              "title": "Ready For Action",
+              "description": "Action",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/276.jpg",
+                "deck": 276,
+                "index": 9,
+                "x": 9,
+                "y": 0,
+                "cols": 10,
+                "rows": 2
+              }
+            }
+          ]
+        },
+        {
+          "name": "Ozzel and Jerjerrod",
+          "leaders": [
+            {
+              "name": "Admiral Ozzel",
+              "role": "Imperial Admiral",
+              "source": "base",
+              "image": "/assets/leaders/admiral-ozzel.jpg"
+            },
+            {
+              "name": "Moff Jerjerrod",
+              "role": "Imperial General",
+              "source": "base",
+              "image": ""
+            }
+          ],
+          "actions": [
+            {
+              "id": 27611,
+              "title": "Fully Operational",
+              "description": "Action",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/276.jpg",
+                "deck": 276,
+                "index": 11,
+                "x": 1,
+                "y": 1,
+                "cols": 10,
+                "rows": 2
+              }
+            },
+            {
+              "id": 27612,
+              "title": "Proceeding As Planned",
+              "description": "Action\n",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/276.jpg",
+                "deck": 276,
+                "index": 12,
+                "x": 2,
+                "y": 1,
+                "cols": 10,
+                "rows": 2
+              }
+            },
+            {
+              "id": 27613,
+              "title": "Scouting Mission",
+              "description": "Action\n",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/276.jpg",
+                "deck": 276,
+                "index": 13,
+                "x": 3,
+                "y": 1,
+                "cols": 10,
+                "rows": 2
+              }
+            }
+          ]
+        },
+        {
+          "name": "Yularen and Soontir",
+          "leaders": [
+            {
+              "name": "Colonel Yularen",
+              "role": "Imperial General",
+              "source": "base",
+              "image": "/assets/leaders/colonel-yularen.jpg"
+            },
+            {
+              "name": "Soontir Fel",
+              "role": "Imperial Admiral",
+              "source": "base",
+              "image": "/assets/leaders/soontir-fel.jpg"
+            }
+          ],
+          "actions": [
+            {
+              "id": 27610,
+              "title": "Catch Them By Surprise",
+              "description": "Action\n",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/276.jpg",
+                "deck": 276,
+                "index": 10,
+                "x": 0,
+                "y": 1,
+                "cols": 10,
+                "rows": 2
+              }
+            },
+            {
+              "id": 27614,
+              "title": "Local Rumors",
+              "description": "Action\n",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/276.jpg",
+                "deck": 276,
+                "index": 14,
+                "x": 4,
+                "y": 1,
+                "cols": 10,
+                "rows": 2
+              }
+            },
+            {
+              "id": 27615,
+              "title": "Good Intel",
+              "description": "Action\n",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/276.jpg",
+                "deck": 276,
+                "index": 15,
+                "x": 5,
+                "y": 1,
+                "cols": 10,
+                "rows": 2
+              }
+            }
+          ]
+        },
+        {
+          "name": "Motti and Jabba",
+          "leaders": [
+            {
+              "name": "Admiral Motti",
+              "role": "Imperial Admiral",
+              "source": "rote",
+              "image": "/assets/leaders/admiral-motti.jpg"
+            },
+            {
+              "name": "Jabba the Hutt",
+              "role": "Imperial General",
+              "source": "rote",
+              "image": "/assets/leaders/jabba-the-hutt.jpg"
+            }
+          ],
+          "actions": [
+            {
+              "id": 32002,
+              "title": "Ambitions of Power",
+              "description": "ROTE, Action, Imperial",
+              "source": "rote",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/320.jpg",
+                "deck": 320,
+                "index": 2,
+                "x": 2,
+                "y": 0,
+                "cols": 6,
+                "rows": 3
+              }
+            },
+            {
+              "id": 32006,
+              "title": "Post Bounty",
+              "description": "ROTE, Action, Imperial",
+              "source": "rote",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/320.jpg",
+                "deck": 320,
+                "index": 6,
+                "x": 0,
+                "y": 1,
+                "cols": 6,
+                "rows": 3
+              }
+            },
+            {
+              "id": 32004,
+              "title": "Good Intel",
+              "description": "ROTE, Action, Imperial",
+              "source": "rote",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/320.jpg",
+                "deck": 320,
+                "index": 4,
+                "x": 4,
+                "y": 0,
+                "cols": 6,
+                "rows": 3
+              }
+            }
+          ]
+        },
+        {
+          "name": "Krennic and Krennic's Finest",
+          "leaders": [
+            {
+              "name": "Director Krennic",
+              "role": "Imperial Admiral",
+              "source": "rote",
+              "image": "/assets/leaders/director-krennic.jpg"
+            },
+            {
+              "name": "Krennic's Finest",
+              "role": "Imperial General",
+              "source": "rote",
+              "image": "/assets/leaders/krennic-s-finest.jpg"
+            }
+          ],
+          "actions": [
+            {
+              "id": 32003,
+              "title": "Sweep the Area",
+              "description": "ROTE, Action, Imperial",
+              "source": "rote",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/320.jpg",
+                "deck": 320,
+                "index": 3,
+                "x": 3,
+                "y": 0,
+                "cols": 6,
+                "rows": 3
+              }
+            },
+            {
+              "id": 32005,
+              "title": "Lord Vader's Orders",
+              "description": "ROTE, Action, Imperial",
+              "source": "rote",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/320.jpg",
+                "deck": 320,
+                "index": 5,
+                "x": 5,
+                "y": 0,
+                "cols": 6,
+                "rows": 3
+              }
+            },
+            {
+              "id": 32007,
+              "title": "Secret Facility",
+              "description": "ROTE, Action, Imperial",
+              "source": "rote",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/320.jpg",
+                "deck": 320,
+                "index": 7,
+                "x": 1,
+                "y": 1,
+                "cols": 6,
+                "rows": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "missions": {
+    "rebel": [
+      {
+        "id": 40300,
+        "title": "LEAD THE STRIKE TEAM",
+        "description": "MissionCard;Rebel;Leader:Han Solo;",
+        "source": "base",
+        "leader": "Han Solo",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40301,
+        "title": "WOOKIEE UPRISING",
+        "description": "MissionCard;Rebel;Leader:Chewbacca;",
+        "source": "base",
+        "leader": "Chewbacca",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 1,
+          "x": 1,
+          "y": 0,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40302,
+        "title": "SUPPORT OF THE MON CALAMARI",
+        "description": "MissionCard;Rebel;Leader:Admiral Ackbar;",
+        "source": "base",
+        "leader": "Admiral Ackbar",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "diplomacy",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 2,
+          "x": 2,
+          "y": 0,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40303,
+        "title": "CONTINGENCY PLAN",
+        "description": "MissionCard;Rebel;Leader:Lando Calrissian;",
+        "source": "base",
+        "leader": "Lando Calrissian",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "logistics",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 3,
+          "x": 3,
+          "y": 0,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40304,
+        "title": "FOR THE GREATER GOOD",
+        "description": "MissionCard;Rebel;Leader:Obi-Wan Kenobi;",
+        "source": "base",
+        "leader": "Obi-Wan Kenobi",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "intel",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 4,
+          "x": 4,
+          "y": 0,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40305,
+        "title": "SEEK YODA",
+        "description": "MissionCard;Rebel;Leader:Luke Skywalker;",
+        "source": "base",
+        "leader": "Luke Skywalker",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "intel",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 5,
+          "x": 5,
+          "y": 0,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40306,
+        "title": "ESTABLISH TRADE RELATIONS",
+        "description": "MissionCard;Rebel;Leader:Mon Mothma;",
+        "source": "base",
+        "leader": "Mon Mothma",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "diplomacy",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 6,
+          "x": 6,
+          "y": 0,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40307,
+        "title": "MISDIRECTION",
+        "description": "MissionCard;Rebel;Leader:General Madine;",
+        "source": "base",
+        "leader": "General Madine",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 7,
+          "x": 7,
+          "y": 0,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40308,
+        "title": "ROGUE SQUADRON RAID",
+        "description": "MissionCard;Rebel;Leader:Wedge Antilles;",
+        "source": "base",
+        "leader": "Wedge Antilles",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 8,
+          "x": 8,
+          "y": 0,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40309,
+        "title": "BUILD ALLIANCE",
+        "description": "MissionCard;Rebel;Starting;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "diplomacy",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 9,
+          "x": 9,
+          "y": 0,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40311,
+        "title": "INFILTRATION",
+        "description": "MissionCard;Rebel;Starting;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "intel",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 11,
+          "x": 1,
+          "y": 1,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40312,
+        "title": "PLANT FALSE LEAD",
+        "description": "MissionCard;Rebel;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "logistics",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 12,
+          "x": 2,
+          "y": 1,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40313,
+        "title": "HIDDEN FLEET",
+        "description": "MissionCard;Rebel;Duplicate;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "logistics",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 13,
+          "x": 3,
+          "y": 1,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40314,
+        "title": "HIDDEN FLEET",
+        "description": "MissionCard;Rebel;Duplicate;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "logistics",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 14,
+          "x": 4,
+          "y": 1,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40315,
+        "title": "HIDDEN FLEET",
+        "description": "MissionCard;Rebel;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "logistics",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 15,
+          "x": 5,
+          "y": 1,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40316,
+        "title": "PUBLIC UPRISING",
+        "description": "MissionCard;Rebel;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "diplomacy",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 16,
+          "x": 6,
+          "y": 1,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40317,
+        "title": "RAPID MOBILIZATION",
+        "description": "MissionCard;Rebel;Starting;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "logistics",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 17,
+          "x": 7,
+          "y": 1,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40318,
+        "title": "INCITE REBELLION",
+        "description": "MissionCard;Rebel;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "diplomacy",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 18,
+          "x": 8,
+          "y": 1,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40319,
+        "title": "COVERT OPERATION",
+        "description": "MissionCard;Rebel;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "intel",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 19,
+          "x": 9,
+          "y": 1,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40320,
+        "title": "DARING RESCUE",
+        "description": "MissionCard;Rebel;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "intel",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 20,
+          "x": 0,
+          "y": 2,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40321,
+        "title": "DARING RESCUE",
+        "description": "MissionCard;Rebel;Duplicate;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "intel",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 21,
+          "x": 1,
+          "y": 2,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40322,
+        "title": "DEMOLITION",
+        "description": "MissionCard;Rebel;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 22,
+          "x": 2,
+          "y": 2,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40323,
+        "title": "HIT AND RUN",
+        "description": "MissionCard;Rebel;Duplicate;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 23,
+          "x": 3,
+          "y": 2,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40324,
+        "title": "HIT AND RUN",
+        "description": "MissionCard;Rebel;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 24,
+          "x": 4,
+          "y": 2,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40325,
+        "title": "STOLEN PLANS",
+        "description": "MissionCard;Rebel;Leader:Princess Leia;",
+        "source": "base",
+        "leader": "Princess Leia",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "intel",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 25,
+          "x": 5,
+          "y": 2,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40326,
+        "title": "INCITE REBELLION",
+        "description": "MissionCard;Rebel;Duplicate;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "diplomacy",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 26,
+          "x": 6,
+          "y": 2,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40327,
+        "title": "BASE DEFENSE",
+        "description": "MissionCard;Rebel;Leader:General Rieekan;",
+        "source": "base",
+        "leader": "General Rieekan",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "diplomacy",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 27,
+          "x": 7,
+          "y": 2,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40328,
+        "title": "PLAN THE ASSAULT",
+        "description": "MissionCard;Rebel;Leader:Jan Dodonna;",
+        "source": "base",
+        "leader": "Jan Dodonna",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "intel",
+        "sprite": {
+          "path": "/assets/sheets/403.jpg",
+          "deck": 403,
+          "index": 28,
+          "x": 8,
+          "y": 2,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40400,
+        "title": "AGGRESSIVE NEGOTIATIONS",
+        "description": "MissionCard;Rebel;Leader:Chirrut Imwe;RotE;",
+        "source": "rote",
+        "leader": "Chirrut Imwe",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "diplomacy",
+        "sprite": {
+          "path": "/assets/sheets/404.jpg",
+          "deck": 404,
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "cols": 10,
+          "rows": 2
+        }
+      },
+      {
+        "id": 40401,
+        "title": "CRITICAL RESCUE",
+        "description": "MissionCard;Rebel;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "intel",
+        "sprite": {
+          "path": "/assets/sheets/404.jpg",
+          "deck": 404,
+          "index": 1,
+          "x": 1,
+          "y": 0,
+          "cols": 10,
+          "rows": 2
+        }
+      },
+      {
+        "id": 40402,
+        "title": "HEIST",
+        "description": "MissionCard;Rebel;Leader:Jyn Erso;RotE;",
+        "source": "rote",
+        "leader": "Jyn Erso",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "intel",
+        "sprite": {
+          "path": "/assets/sheets/404.jpg",
+          "deck": 404,
+          "index": 2,
+          "x": 2,
+          "y": 0,
+          "cols": 10,
+          "rows": 2
+        }
+      },
+      {
+        "id": 40403,
+        "title": "MY ONLY HOPE",
+        "description": "MissionCard;Rebel;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "logistics",
+        "sprite": {
+          "path": "/assets/sheets/404.jpg",
+          "deck": 404,
+          "index": 3,
+          "x": 3,
+          "y": 0,
+          "cols": 10,
+          "rows": 2
+        }
+      },
+      {
+        "id": 40404,
+        "title": "PLANT EXPLOSIVES",
+        "description": "MissionCard;Rebel;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/404.jpg",
+          "deck": 404,
+          "index": 4,
+          "x": 4,
+          "y": 0,
+          "cols": 10,
+          "rows": 2
+        }
+      },
+      {
+        "id": 40405,
+        "title": "PREPARE FOR BATTLE",
+        "description": "MissionCard;Rebel;Leader:Saw Gerrera;RotE;",
+        "source": "rote",
+        "leader": "Saw Gerrera",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/404.jpg",
+          "deck": 404,
+          "index": 5,
+          "x": 5,
+          "y": 0,
+          "cols": 10,
+          "rows": 2
+        }
+      },
+      {
+        "id": 40406,
+        "title": "PROMOTION",
+        "description": "MissionCard;Rebel;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "logistics",
+        "sprite": {
+          "path": "/assets/sheets/404.jpg",
+          "deck": 404,
+          "index": 6,
+          "x": 6,
+          "y": 0,
+          "cols": 10,
+          "rows": 2
+        }
+      },
+      {
+        "id": 40407,
+        "title": "REGIONAL AID",
+        "description": "MissionCard;Rebel;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "diplomacy",
+        "sprite": {
+          "path": "/assets/sheets/404.jpg",
+          "deck": 404,
+          "index": 7,
+          "x": 7,
+          "y": 0,
+          "cols": 10,
+          "rows": 2
+        }
+      },
+      {
+        "id": 40408,
+        "title": "SABOTAGE",
+        "description": "MissionCard;Rebel;Starting;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/404.jpg",
+          "deck": 404,
+          "index": 8,
+          "x": 8,
+          "y": 0,
+          "cols": 10,
+          "rows": 2
+        }
+      },
+      {
+        "id": 40409,
+        "title": "SECRET MISSION",
+        "description": "MissionCard;Rebel;Leader:Cassian Andor;RotE;",
+        "source": "rote",
+        "leader": "Cassian Andor",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "logistics",
+        "sprite": {
+          "path": "/assets/sheets/404.jpg",
+          "deck": 404,
+          "index": 9,
+          "x": 9,
+          "y": 0,
+          "cols": 10,
+          "rows": 2
+        }
+      },
+      {
+        "id": 40410,
+        "title": "SUBVERSION",
+        "description": "MissionCard;Rebel;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "special",
+        "sprite": {
+          "path": "/assets/sheets/404.jpg",
+          "deck": 404,
+          "index": 10,
+          "x": 0,
+          "y": 1,
+          "cols": 10,
+          "rows": 2
+        }
+      },
+      {
+        "id": 40411,
+        "title": "SUBVERSION",
+        "description": "MissionCard;Rebel;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "special",
+        "sprite": {
+          "path": "/assets/sheets/404.jpg",
+          "deck": 404,
+          "index": 11,
+          "x": 1,
+          "y": 1,
+          "cols": 10,
+          "rows": 2
+        }
+      },
+      {
+        "id": 40412,
+        "title": "ASSAULT",
+        "description": "MissionCard;Rebel;VaderIcon;Duplicate;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/404.jpg",
+          "deck": 404,
+          "index": 12,
+          "x": 2,
+          "y": 1,
+          "cols": 10,
+          "rows": 2
+        }
+      },
+      {
+        "id": 40413,
+        "title": "ASSAULT",
+        "description": "MissionCard;Rebel;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/404.jpg",
+          "deck": 404,
+          "index": 13,
+          "x": 3,
+          "y": 1,
+          "cols": 10,
+          "rows": 2
+        }
+      },
+      {
+        "id": 40414,
+        "title": "BEHIND ENEMY LINES",
+        "description": "MissionCard;Rebel;Duplicate;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "logistics",
+        "sprite": {
+          "path": "/assets/sheets/404.jpg",
+          "deck": 404,
+          "index": 14,
+          "x": 4,
+          "y": 1,
+          "cols": 10,
+          "rows": 2
+        }
+      },
+      {
+        "id": 40415,
+        "title": "BEHIND ENEMY LINES",
+        "description": "MissionCard;Rebel;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "logistics",
+        "sprite": {
+          "path": "/assets/sheets/404.jpg",
+          "deck": 404,
+          "index": 15,
+          "x": 5,
+          "y": 1,
+          "cols": 10,
+          "rows": 2
+        }
+      },
+      {
+        "id": 40416,
+        "title": "RECONNAISSANCE",
+        "description": "MissionCard;Rebel;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "intel",
+        "sprite": {
+          "path": "/assets/sheets/404.jpg",
+          "deck": 404,
+          "index": 16,
+          "x": 6,
+          "y": 1,
+          "cols": 10,
+          "rows": 2
+        }
+      },
+      {
+        "id": 40417,
+        "title": "RECONNAISSANCE",
+        "description": "MissionCard;Rebel;Duplicate;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "intel",
+        "sprite": {
+          "path": "/assets/sheets/404.jpg",
+          "deck": 404,
+          "index": 17,
+          "x": 7,
+          "y": 1,
+          "cols": 10,
+          "rows": 2
+        }
+      },
+      {
+        "id": 40418,
+        "title": "SAFE HAVEN",
+        "description": "MissionCard;Rebel;Duplicate;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "diplomacy",
+        "sprite": {
+          "path": "/assets/sheets/404.jpg",
+          "deck": 404,
+          "index": 18,
+          "x": 8,
+          "y": 1,
+          "cols": 10,
+          "rows": 2
+        }
+      },
+      {
+        "id": 40419,
+        "title": "SAFE HAVEN",
+        "description": "MissionCard;Rebel;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "diplomacy",
+        "sprite": {
+          "path": "/assets/sheets/404.jpg",
+          "deck": 404,
+          "index": 19,
+          "x": 9,
+          "y": 1,
+          "cols": 10,
+          "rows": 2
+        }
+      }
+    ],
+    "imperial": [
+      {
+        "id": 39903,
+        "title": "LONG-RANGE PROBE",
+        "description": "MissionCard;Imperial;Leader:Admiral Piett;",
+        "source": "base",
+        "leader": "Admiral Piett",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "intel",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 3,
+          "x": 3,
+          "y": 0,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39911,
+        "title": "CAPTURE REBEL OPERATIVE",
+        "description": "MissionCard;Imperial;Starting;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 11,
+          "x": 1,
+          "y": 1,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39912,
+        "title": "RULE BY FEAR",
+        "description": "MissionCard;Imperial;Starting;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "diplomacy",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 12,
+          "x": 2,
+          "y": 1,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39913,
+        "title": "GATHER INTEL",
+        "description": "MissionCard;Imperial;Starting;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "intel",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 13,
+          "x": 3,
+          "y": 1,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39914,
+        "title": "SECRET WEAPONS RESEARCH",
+        "description": "MissionCard;Imperial;Duplicate;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "logistics",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 14,
+          "x": 4,
+          "y": 1,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39915,
+        "title": "RESEARCH AND DEVELOPMENT",
+        "description": "MissionCard;Imperial;Starting;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "logistics",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 15,
+          "x": 5,
+          "y": 1,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39916,
+        "title": "SECRET WEAPONS RESEARCH",
+        "description": "MissionCard;Imperial;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "logistics",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 16,
+          "x": 6,
+          "y": 1,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39917,
+        "title": "ADDRESS DELAYS",
+        "description": "MissionCard;Imperial;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "logistics",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 17,
+          "x": 7,
+          "y": 1,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39918,
+        "title": "INTERCEPT TRANSMISSION",
+        "description": "MissionCard;Imperial;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "intel",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 18,
+          "x": 8,
+          "y": 1,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39919,
+        "title": "INTERCEPT TRANSMISSION",
+        "description": "MissionCard;Imperial;Duplicate;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "intel",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 19,
+          "x": 9,
+          "y": 1,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39920,
+        "title": "HOMING BEACON",
+        "description": "MissionCard;Imperial;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "intel",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 20,
+          "x": 0,
+          "y": 2,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39921,
+        "title": "INTERROGATION",
+        "description": "MissionCard;Imperial;Duplicate;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 21,
+          "x": 1,
+          "y": 2,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39922,
+        "title": "INTERROGATION",
+        "description": "MissionCard;Imperial;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 22,
+          "x": 2,
+          "y": 2,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39923,
+        "title": "CARBON FREEZING",
+        "description": "MissionCard;Imperial;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 23,
+          "x": 3,
+          "y": 2,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39924,
+        "title": "ADDRESS DELAYS",
+        "description": "MissionCard;Imperial;Duplicate;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "logistics",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 24,
+          "x": 4,
+          "y": 2,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39925,
+        "title": "TRADE NEGOTIATIONS",
+        "description": "MissionCard;Imperial;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "diplomacy",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 25,
+          "x": 5,
+          "y": 2,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39926,
+        "title": "TRADE NEGOTIATIONS",
+        "description": "MissionCard;Imperial;Duplicate;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "diplomacy",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 26,
+          "x": 6,
+          "y": 2,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39927,
+        "title": "LURE OF THE DARK SIDE",
+        "description": "MissionCard;Imperial;Leader:Emperor Palpatine;",
+        "source": "base",
+        "leader": "Emperor Palpatine",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "diplomacy",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 27,
+          "x": 7,
+          "y": 2,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39928,
+        "title": "HUNT THEM DOWN",
+        "description": "MissionCard;Imperial;Leader:Soontir Fel;",
+        "source": "base",
+        "leader": "Soontir Fel",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 28,
+          "x": 8,
+          "y": 2,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39929,
+        "title": "RETRIEVE THE PLANS",
+        "description": "MissionCard;Imperial;Leader:Darth Vader;",
+        "source": "base",
+        "leader": "Darth Vader",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 29,
+          "x": 9,
+          "y": 2,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39930,
+        "title": "PROBE DROID INITIATIVE",
+        "description": "MissionCard;Imperial;Leader:Admiral Ozzel;",
+        "source": "base",
+        "leader": "Admiral Ozzel",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "intel",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 30,
+          "x": 0,
+          "y": 3,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39931,
+        "title": "DOUBLE OUR EFFORTS",
+        "description": "MissionCard;Imperial;Leader:Moff Jerjerrod;",
+        "source": "base",
+        "leader": "Moff Jerjerrod",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "diplomacy",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 31,
+          "x": 1,
+          "y": 3,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39932,
+        "title": "FEAR WILL KEEP THEM IN LINE",
+        "description": "MissionCard;Imperial;Leader:Grand Moff Tarkin;",
+        "source": "base",
+        "leader": "Grand Moff Tarkin",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "diplomacy",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 32,
+          "x": 2,
+          "y": 3,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39933,
+        "title": "DISPLAY OF POWER",
+        "description": "MissionCard;Imperial;",
+        "source": "base",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "diplomacy",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 33,
+          "x": 3,
+          "y": 3,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39934,
+        "title": "COLLECT BOUNTY",
+        "description": "MissionCard;Imperial;Leader:Boba; Fett",
+        "source": "base",
+        "leader": "Boba Fett",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 34,
+          "x": 4,
+          "y": 3,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39935,
+        "title": "PLANETARY CONQUEST",
+        "description": "MissionCard;Imperial;Leader:General Veers;",
+        "source": "base",
+        "leader": "General Veers",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 35,
+          "x": 5,
+          "y": 3,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39936,
+        "title": "INTERROGATION DROID",
+        "description": "MissionCard;Imperial;Leader:Colonel Yularen;",
+        "source": "base",
+        "leader": "Colonel Yularen",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "intel",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 36,
+          "x": 6,
+          "y": 3,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39937,
+        "title": "DETAINED",
+        "description": "MissionCard;Imperial;Leader:General Tagge;",
+        "source": "base",
+        "leader": "General Tagge",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 37,
+          "x": 7,
+          "y": 3,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 39938,
+        "title": "IMPERIAL PROPAGANDA",
+        "description": "MissionCard;Imperial;Leader:Janus Greejatus;",
+        "source": "base",
+        "leader": "Janus Greejatus",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "diplomacy",
+        "sprite": {
+          "path": "/assets/sheets/399.jpg",
+          "deck": 399,
+          "index": 38,
+          "x": 8,
+          "y": 3,
+          "cols": 10,
+          "rows": 4
+        }
+      },
+      {
+        "id": 40000,
+        "title": "BREAK THEIR WILL",
+        "description": "MissionCard;Imperial;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/400.jpg",
+          "deck": 400,
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40001,
+        "title": "DISCREDIT REBELLION",
+        "description": "MissionCard;Imperial;Leader:Admiral Motti;RotE;",
+        "source": "rote",
+        "leader": "Admiral Motti",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "logistics",
+        "sprite": {
+          "path": "/assets/sheets/400.jpg",
+          "deck": 400,
+          "index": 1,
+          "x": 1,
+          "y": 0,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40002,
+        "title": "DRAW THEM OUT",
+        "description": "MissionCard;Imperial;Leader:Krennic's Finest;RotE;",
+        "source": "rote",
+        "leader": "Krennic's Finest",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/400.jpg",
+          "deck": 400,
+          "index": 2,
+          "x": 2,
+          "y": 0,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40003,
+        "title": "HIRE MERCENARIES",
+        "description": "MissionCard;Imperial;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "logistics",
+        "sprite": {
+          "path": "/assets/sheets/400.jpg",
+          "deck": 400,
+          "index": 3,
+          "x": 3,
+          "y": 0,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40004,
+        "title": "MAKE AN EXAMPLE",
+        "description": "MissionCard;Imperial;Leader:Jabba the Hutt;RotE;",
+        "source": "rote",
+        "leader": "Jabba the Hutt",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "diplomacy",
+        "sprite": {
+          "path": "/assets/sheets/400.jpg",
+          "deck": 400,
+          "index": 4,
+          "x": 4,
+          "y": 0,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40005,
+        "title": "MESSAGE FROM HIGH COMMAND",
+        "description": "MissionCard;Imperial;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "diplomacy",
+        "sprite": {
+          "path": "/assets/sheets/400.jpg",
+          "deck": 400,
+          "index": 5,
+          "x": 5,
+          "y": 0,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40006,
+        "title": "PROMOTION",
+        "description": "MissionCard;Imperial;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "logistics",
+        "sprite": {
+          "path": "/assets/sheets/400.jpg",
+          "deck": 400,
+          "index": 6,
+          "x": 6,
+          "y": 0,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40007,
+        "title": "SECURE THE PLANS",
+        "description": "MissionCard;Imperial;Leader:Director Krennic;RotE;",
+        "source": "rote",
+        "leader": "Director Krennic",
+        "vader_icon": false,
+        "include_in_base": true,
+        "skill": "intel",
+        "sprite": {
+          "path": "/assets/sheets/400.jpg",
+          "deck": 400,
+          "index": 7,
+          "x": 7,
+          "y": 0,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40009,
+        "title": "SUBVERSION",
+        "description": "MissionCard;Imperial;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": false,
+        "include_in_base": false,
+        "skill": "special",
+        "sprite": {
+          "path": "/assets/sheets/400.jpg",
+          "deck": 400,
+          "index": 9,
+          "x": 9,
+          "y": 0,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40010,
+        "title": "SUBVERSION",
+        "description": "MissionCard;Imperial;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "special",
+        "sprite": {
+          "path": "/assets/sheets/400.jpg",
+          "deck": 400,
+          "index": 10,
+          "x": 0,
+          "y": 1,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40011,
+        "title": "WE'RE THE BAIT",
+        "description": "MissionCard;Imperial;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "intel",
+        "sprite": {
+          "path": "/assets/sheets/400.jpg",
+          "deck": 400,
+          "index": 11,
+          "x": 1,
+          "y": 1,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40014,
+        "title": "DEPLOYMENT",
+        "description": "MissionCard;Imperial;Duplicate;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "diplomacy",
+        "sprite": {
+          "path": "/assets/sheets/400.jpg",
+          "deck": 400,
+          "index": 14,
+          "x": 4,
+          "y": 1,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40015,
+        "title": "DEPLOYMENT",
+        "description": "MissionCard;Imperial;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "diplomacy",
+        "sprite": {
+          "path": "/assets/sheets/400.jpg",
+          "deck": 400,
+          "index": 15,
+          "x": 5,
+          "y": 1,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40016,
+        "title": "EXPLOIT WEAKNESS",
+        "description": "MissionCard;Imperial;Duplicate;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/400.jpg",
+          "deck": 400,
+          "index": 16,
+          "x": 6,
+          "y": 1,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40017,
+        "title": "EXPLOIT WEAKNESS",
+        "description": "MissionCard;Imperial;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "power",
+        "sprite": {
+          "path": "/assets/sheets/400.jpg",
+          "deck": 400,
+          "index": 17,
+          "x": 7,
+          "y": 1,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40018,
+        "title": "IMPERIAL MIGHT",
+        "description": "MissionCard;Imperial;Duplicate;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "logistics",
+        "sprite": {
+          "path": "/assets/sheets/400.jpg",
+          "deck": 400,
+          "index": 18,
+          "x": 8,
+          "y": 1,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40019,
+        "title": "IMPERIAL MIGHT",
+        "description": "MissionCard;Imperial;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "logistics",
+        "sprite": {
+          "path": "/assets/sheets/400.jpg",
+          "deck": 400,
+          "index": 19,
+          "x": 9,
+          "y": 1,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40022,
+        "title": "STOLEN INTEL",
+        "description": "MissionCard;Imperial;Duplicate;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "intel",
+        "sprite": {
+          "path": "/assets/sheets/400.jpg",
+          "deck": 400,
+          "index": 22,
+          "x": 2,
+          "y": 2,
+          "cols": 10,
+          "rows": 3
+        }
+      },
+      {
+        "id": 40023,
+        "title": "STOLEN INTEL",
+        "description": "MissionCard;Imperial;VaderIcon;RotE;",
+        "source": "rote",
+        "leader": "",
+        "vader_icon": true,
+        "include_in_base": false,
+        "skill": "intel",
+        "sprite": {
+          "path": "/assets/sheets/400.jpg",
+          "deck": 400,
+          "index": 23,
+          "x": 3,
+          "y": 2,
+          "cols": 10,
+          "rows": 3
+        }
+      }
+    ]
+  },
+  "objectives": [
+    {
+      "id": 40500,
+      "title": "Rebel Assault",
+      "description": "ObjectiveCard;I;1;Rebel;",
+      "source": "base",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/405.jpg",
+        "deck": 405,
+        "index": 0,
+        "x": 0,
+        "y": 0,
+        "cols": 10,
+        "rows": 2
+      },
+      "tier": "I"
+    },
+    {
+      "id": 40501,
+      "title": "Crippling Blow",
+      "description": "ObjectiveCard;I;1;Rebel;",
+      "source": "base",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/405.jpg",
+        "deck": 405,
+        "index": 1,
+        "x": 1,
+        "y": 0,
+        "cols": 10,
+        "rows": 2
+      },
+      "tier": "I"
+    },
+    {
+      "id": 40502,
+      "title": "Defend the People",
+      "description": "ObjectiveCard;I;1;Rebel;",
+      "source": "base",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/405.jpg",
+        "deck": 405,
+        "index": 2,
+        "x": 2,
+        "y": 0,
+        "cols": 10,
+        "rows": 2
+      },
+      "tier": "I"
+    },
+    {
+      "id": 40503,
+      "title": "Regional Support",
+      "description": "ObjectiveCard;I;1;Rebel;",
+      "source": "base",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/405.jpg",
+        "deck": 405,
+        "index": 3,
+        "x": 3,
+        "y": 0,
+        "cols": 10,
+        "rows": 2
+      },
+      "tier": "I"
+    },
+    {
+      "id": 40504,
+      "title": "Cut Supply Lines",
+      "description": "ObjectiveCard;I;1;Rebel;",
+      "source": "base",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/405.jpg",
+        "deck": 405,
+        "index": 4,
+        "x": 4,
+        "y": 0,
+        "cols": 10,
+        "rows": 2
+      },
+      "tier": "I"
+    },
+    {
+      "id": 50500,
+      "title": "Threaten the Core",
+      "description": "ObjectiveCard;I;1;Rebel;RotE;",
+      "source": "rote",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/505.jpg",
+        "deck": 505,
+        "index": 0,
+        "x": 0,
+        "y": 0,
+        "cols": 7,
+        "rows": 2
+      },
+      "tier": "I"
+    },
+    {
+      "id": 50501,
+      "title": "Decisive Victory",
+      "description": "ObjectiveCard;I;1;Rebel;RotE;",
+      "source": "rote",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/505.jpg",
+        "deck": 505,
+        "index": 1,
+        "x": 1,
+        "y": 0,
+        "cols": 7,
+        "rows": 2
+      },
+      "tier": "I"
+    },
+    {
+      "id": 50502,
+      "title": "Defensive Position",
+      "description": "ObjectiveCard;I;1;Rebel;RotE;",
+      "source": "rote",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/505.jpg",
+        "deck": 505,
+        "index": 2,
+        "x": 2,
+        "y": 0,
+        "cols": 7,
+        "rows": 2
+      },
+      "tier": "I"
+    },
+    {
+      "id": 50503,
+      "title": "Support of the Hutts",
+      "description": "ObjectiveCard;I;1;Rebel;RotE;",
+      "source": "rote",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/505.jpg",
+        "deck": 505,
+        "index": 3,
+        "x": 3,
+        "y": 0,
+        "cols": 7,
+        "rows": 2
+      },
+      "tier": "I"
+    },
+    {
+      "id": 50504,
+      "title": "The Long War",
+      "description": "ObjectiveCard;I;1;Rebel;RotE;",
+      "source": "rote",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/505.jpg",
+        "deck": 505,
+        "index": 4,
+        "x": 4,
+        "y": 0,
+        "cols": 7,
+        "rows": 2
+      },
+      "tier": "I"
+    },
+    {
+      "id": 40905,
+      "title": "Death Star Plans",
+      "description": "ObjectiveCard;II;2;Rebel;",
+      "source": "base",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/409.jpg",
+        "deck": 409,
+        "index": 5,
+        "x": 5,
+        "y": 0,
+        "cols": 10,
+        "rows": 2
+      },
+      "tier": "II"
+    },
+    {
+      "id": 40906,
+      "title": "Liberation",
+      "description": "ObjectiveCard;II;1;Rebel;",
+      "source": "base",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/409.jpg",
+        "deck": 409,
+        "index": 6,
+        "x": 6,
+        "y": 0,
+        "cols": 10,
+        "rows": 2
+      },
+      "tier": "II"
+    },
+    {
+      "id": 40907,
+      "title": "Leave No One Behind",
+      "description": "ObjectiveCard;II;1;Rebel;",
+      "source": "base",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/409.jpg",
+        "deck": 409,
+        "index": 7,
+        "x": 7,
+        "y": 0,
+        "cols": 10,
+        "rows": 2
+      },
+      "tier": "II"
+    },
+    {
+      "id": 40908,
+      "title": "Popular Support",
+      "description": "ObjectiveCard;II;1;Rebel;",
+      "source": "base",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/409.jpg",
+        "deck": 409,
+        "index": 8,
+        "x": 8,
+        "y": 0,
+        "cols": 10,
+        "rows": 2
+      },
+      "tier": "II"
+    },
+    {
+      "id": 40909,
+      "title": "Heart of the Empire",
+      "description": "ObjectiveCard;II;2;Rebel;",
+      "source": "base",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/409.jpg",
+        "deck": 409,
+        "index": 9,
+        "x": 9,
+        "y": 0,
+        "cols": 10,
+        "rows": 2
+      },
+      "tier": "II"
+    },
+    {
+      "id": 50605,
+      "title": "Rebel Cell",
+      "description": "ObjectiveCard;II;-;Rebel;RotE;",
+      "source": "rote",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/506.jpg",
+        "deck": 506,
+        "index": 5,
+        "x": 5,
+        "y": 0,
+        "cols": 7,
+        "rows": 2
+      },
+      "tier": "II"
+    },
+    {
+      "id": 50606,
+      "title": "Seize Control",
+      "description": "ObjectiveCard;II;1;Rebel;RotE;",
+      "source": "rote",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/506.jpg",
+        "deck": 506,
+        "index": 6,
+        "x": 6,
+        "y": 0,
+        "cols": 7,
+        "rows": 2
+      },
+      "tier": "II"
+    },
+    {
+      "id": 50607,
+      "title": "A Time For Peace",
+      "description": "ObjectiveCard;II;1;Rebel;RotE;",
+      "source": "rote",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/506.jpg",
+        "deck": 506,
+        "index": 7,
+        "x": 0,
+        "y": 1,
+        "cols": 7,
+        "rows": 2
+      },
+      "tier": "II"
+    },
+    {
+      "id": 50608,
+      "title": "Raid Outposts",
+      "description": "ObjectiveCard;II;-;Rebel;RotE;",
+      "source": "rote",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/506.jpg",
+        "deck": 506,
+        "index": 8,
+        "x": 1,
+        "y": 1,
+        "cols": 7,
+        "rows": 2
+      },
+      "tier": "II"
+    },
+    {
+      "id": 40710,
+      "title": "Major Victory",
+      "description": "ObjectiveCard;III;1;Rebel;",
+      "source": "base",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/407.jpg",
+        "deck": 407,
+        "index": 10,
+        "x": 0,
+        "y": 1,
+        "cols": 10,
+        "rows": 2
+      },
+      "tier": "III"
+    },
+    {
+      "id": 40711,
+      "title": "Death Star Plans",
+      "description": "ObjectiveCard;III;2;Rebel;",
+      "source": "base",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/407.jpg",
+        "deck": 407,
+        "index": 11,
+        "x": 1,
+        "y": 1,
+        "cols": 10,
+        "rows": 2
+      },
+      "tier": "III"
+    },
+    {
+      "id": 40712,
+      "title": "Inspire Sympathy",
+      "description": "ObjectiveCard;III;*;Rebel;",
+      "source": "base",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/407.jpg",
+        "deck": 407,
+        "index": 12,
+        "x": 2,
+        "y": 1,
+        "cols": 10,
+        "rows": 2
+      },
+      "tier": "III"
+    },
+    {
+      "id": 40713,
+      "title": "Return of the Jedi",
+      "description": "ObjectiveCard;III;2;Rebel;",
+      "source": "base",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/407.jpg",
+        "deck": 407,
+        "index": 13,
+        "x": 3,
+        "y": 1,
+        "cols": 10,
+        "rows": 2
+      },
+      "tier": "III"
+    },
+    {
+      "id": 40714,
+      "title": "Establish Outposts",
+      "description": "ObjectiveCard;III;1;Rebel;",
+      "source": "base",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/407.jpg",
+        "deck": 407,
+        "index": 14,
+        "x": 4,
+        "y": 1,
+        "cols": 10,
+        "rows": 2
+      },
+      "tier": "III"
+    },
+    {
+      "id": 50409,
+      "title": "Show No Fear",
+      "description": "ObjectiveCard;III;-;Rebel;RotE;",
+      "source": "rote",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/504.jpg",
+        "deck": 504,
+        "index": 9,
+        "x": 2,
+        "y": 1,
+        "cols": 7,
+        "rows": 2
+      },
+      "tier": "III"
+    },
+    {
+      "id": 50410,
+      "title": "Raid Imperial Factory",
+      "description": "ObjectiveCard;III;1;Rebel;RotE;",
+      "source": "rote",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/504.jpg",
+        "deck": 504,
+        "index": 10,
+        "x": 3,
+        "y": 1,
+        "cols": 7,
+        "rows": 2
+      },
+      "tier": "III"
+    },
+    {
+      "id": 50411,
+      "title": "Uprising",
+      "description": "ObjectiveCard;III;2;Rebel;RotE;",
+      "source": "rote",
+      "leader": "",
+      "vader_icon": false,
+      "include_in_base": false,
+      "skill": "unknown",
+      "sprite": {
+        "path": "/assets/sheets/504.jpg",
+        "deck": 504,
+        "index": 11,
+        "x": 4,
+        "y": 1,
+        "cols": 7,
+        "rows": 2
+      },
+      "tier": "III"
+    }
+  ]
+}
