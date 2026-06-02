@@ -33,28 +33,41 @@ def faction_label(faction: str) -> str:
     return "Rebels" if faction == "rebel" else "Empire"
 
 
-def has_leader_icon(card: dict[str, Any]) -> bool:
-    return bool(card.get("leader") or card.get("vader_icon"))
-
-
 def is_starting_mission(card: dict[str, Any]) -> bool:
     return "starting" in str(card.get("description", "")).lower()
 
 
-def mission_visible(card: dict[str, Any], game: str, deck: str) -> bool:
+def mission_type(card: dict[str, Any]) -> int | None:
     if is_starting_mission(card):
-        return False
+        return 5
 
     source = card.get("source")
-    leader_icon = has_leader_icon(card)
+    has_leader = bool(card.get("leader"))
+    has_vader_icon = bool(card.get("vader_icon"))
+
+    if source == "base" and not has_leader and not has_vader_icon:
+        return 1
+    if source == "base" and has_leader and not has_vader_icon:
+        return 2
+    if source == "rote" and has_leader and not has_vader_icon:
+        return 3
+    if source == "rote" and has_vader_icon:
+        return 4
+    return None
+
+
+def mission_visible(card: dict[str, Any], game: str, deck: str) -> bool:
+    card_type = mission_type(card)
+    if card_type in {None, 5}:
+        return False
 
     if game == "base":
-        return source == "base"
+        return card_type in {1, 2}
 
     if deck == "base":
-        return (source == "base" and not leader_icon) or leader_icon
+        return card_type in {1, 2, 3}
 
-    return leader_icon or (source == "rote" and not leader_icon)
+    return card_type in {2, 3, 4}
 
 
 def collapse_duplicates(cards: list[dict[str, Any]]) -> list[dict[str, Any]]:
