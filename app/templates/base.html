@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% block title %}Star Wars Rebellion Helper{% endblock %}</title>
-    <link rel="stylesheet" href="{{ url_for('static', path='/css/styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/styles.css') }}?v=advanced-tactics">
   </head>
   <body>
     <header class="topbar">
@@ -15,6 +15,7 @@
         <a href="/rebels/missions" data-remember-page="/rebels/missions" class="{{ 'active' if active == 'rebel-missions' else '' }}">Rebel Missions</a>
         <a href="/imperial/missions" data-remember-page="/imperial/missions" class="{{ 'active' if active == 'imperial-missions' else '' }}">Imperial Missions</a>
         <a href="/rebels/objectives" data-remember-page="/rebels/objectives" class="{{ 'active' if active == 'rebel-objectives' else '' }}">Objectives</a>
+        <a href="/advanced-tactics" class="{{ 'active' if active == 'advanced-tactics' else '' }}">Advanced Tactics</a>
       </nav>
     </header>
 

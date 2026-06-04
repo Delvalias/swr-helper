@@ -24,6 +24,7 @@ def load_data() -> dict[str, Any]:
             "factions": {"rebel": {"leaders": [], "actions": []}, "imperial": {"leaders": [], "actions": []}},
             "missions": {"rebel": [], "imperial": []},
             "objectives": [],
+            "advanced_tactics": [],
             "generated_from": None,
         }
     return json.loads(DATA_FILE.read_text())
@@ -110,6 +111,21 @@ def group_objectives(cards: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return grouped
 
 
+def group_advanced_tactics(cards: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    groups = []
+    labels = {
+        ("rebel", "space"): "Space Rebel Cards",
+        ("rebel", "ground"): "Ground Rebel Cards",
+        ("imperial", "space"): "Space Imperial Cards",
+        ("imperial", "ground"): "Ground Imperial Cards",
+    }
+    for side, arena in [("rebel", "space"), ("rebel", "ground"), ("imperial", "space"), ("imperial", "ground")]:
+        items = [card for card in cards if card.get("side") == side and card.get("arena") == arena]
+        if items:
+            groups.append({"key": f"{side}-{arena}", "label": labels[(side, arena)], "cards": items})
+    return groups
+
+
 @app.get("/", include_in_schema=False)
 def index() -> RedirectResponse:
     return RedirectResponse(url="/rebels/actions")
@@ -180,5 +196,18 @@ def objectives(request: Request, expansion: str = Query("base", pattern="^(base|
             "expansion": expansion,
             "groups": group_objectives(cards),
             "active": "rebel-objectives",
+        },
+    )
+
+
+@app.get("/advanced-tactics")
+def advanced_tactics(request: Request):
+    data = load_data()
+    return templates.TemplateResponse(
+        "advanced_tactics.html",
+        {
+            "request": request,
+            "groups": group_advanced_tactics(data.get("advanced_tactics", [])),
+            "active": "advanced-tactics",
         },
     )

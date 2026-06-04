@@ -58,6 +58,8 @@ TITLE_FIXES = {
     "BOBA FETTT? WHERE?": "Boba Fett? Where?",
     "DISCREDIT REBELION": "Discredit Rebellion",
     "MAKE AN EXPAMPLE": "Make an Example",
+    "ROUGE ONE": "Rogue One",
+    "ROUGE SQUADRON SUPPORT": "Rogue Squadron Support",
 }
 
 ACTION_SET_CONFIG = {
@@ -270,6 +272,37 @@ def objective_card(card: dict[str, Any], decks: dict[int, dict[str, Any]], tts_p
     return record
 
 
+def advanced_tactic_card(card: dict[str, Any], decks: dict[int, dict[str, Any]], tts_path: Path) -> dict[str, Any] | None:
+    parts = tokens(card.get("Description", ""))
+    upper = {part.upper() for part in parts}
+    if "ADVANCEDTACTICCARD" not in upper or "ROTE" not in upper or upper & FAN_TAGS:
+        return None
+
+    arena = "space" if "SPACE" in upper else "ground" if "GROUND" in upper else ""
+    side = "rebel" if "REBEL" in upper else "imperial" if "IMPERIAL" in upper else ""
+    if not arena or not side:
+        return None
+
+    record = card_record(card, decks, tts_path)
+    record["arena"] = arena
+    record["side"] = side
+    return record
+
+
+def advanced_tactic_records(workshop: dict[str, Any], decks: dict[int, dict[str, Any]], tts_path: Path) -> list[dict[str, Any]]:
+    records: list[dict[str, Any]] = []
+    seen: set[int] = set()
+    for card in walk(workshop):
+        if not card.get("CardID"):
+            continue
+        record = advanced_tactic_card(card, decks, tts_path)
+        if not record or record["id"] in seen:
+            continue
+        seen.add(record["id"])
+        records.append(record)
+    return records
+
+
 def action_cards_for_faction(
     workshop: dict[str, Any],
     decks: dict[int, dict[str, Any]],
@@ -455,6 +488,7 @@ def build_data(tts_path: Path) -> dict[str, Any]:
         "factions": {},
         "missions": {},
         "objectives": [],
+        "advanced_tactics": [],
     }
 
     for faction in ("rebel", "imperial"):
@@ -473,6 +507,13 @@ def build_data(tts_path: Path) -> dict[str, Any]:
 
     objectives = objective_records(ultimate, decks, tts_path)
     output["objectives"] = sorted(objectives, key=lambda item: (item["tier"], item["source"], item["sprite"]["deck"], item["sprite"]["index"]))
+    advanced_tactics = advanced_tactic_records(ultimate, decks, tts_path)
+    side_order = {"rebel": 0, "imperial": 1}
+    arena_order = {"space": 0, "ground": 1}
+    output["advanced_tactics"] = sorted(
+        advanced_tactics,
+        key=lambda item: (side_order[item["side"]], arena_order[item["arena"]], item["sprite"]["deck"], item["sprite"]["index"]),
+    )
     return output
 
 

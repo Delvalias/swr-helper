@@ -160,6 +160,28 @@ input[type="search"] {
   font-size: 13px;
 }
 
+.section-actions {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.reset-button {
+  background: #0c0d10;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--text);
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+  min-height: 34px;
+  padding: 0 12px;
+}
+
+.reset-button:hover {
+  background: var(--panel-2);
+}
+
 .card-grid,
 .card-row {
   display: grid;
@@ -298,6 +320,58 @@ input[type="search"] {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.tactic-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.tactic-card {
+  --hover-scale: 1;
+}
+
+.tactic-toggle {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  font: inherit;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.tactic-toggle:focus-visible .card-frame {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.tactic-card .card-frame,
+.tactic-card .card-meta {
+  transition: filter 120ms ease, opacity 120ms ease;
+}
+
+.tactic-card.is-used .card-frame,
+.tactic-card.is-used .card-meta {
+  filter: grayscale(1);
+  opacity: 0.38;
+}
+
+.tactic-card.is-used .card-frame::after {
+  align-items: center;
+  background: rgba(5, 6, 8, 0.55);
+  color: var(--text);
+  content: "USED";
+  display: flex;
+  font-size: 26px;
+  font-weight: 900;
+  inset: 0;
+  justify-content: center;
+  letter-spacing: 0;
+  position: absolute;
+}
+
 .leader-tile {
   align-items: center;
   background: var(--panel);
@@ -399,7 +473,8 @@ input[type="search"] {
   }
 
   .action-leaders,
-  .action-cards {
+  .action-cards,
+  .tactic-grid {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   }
 }
@@ -407,5 +482,9 @@ input[type="search"] {
 @media (min-width: 1200px) {
   .card-row {
     grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+
+  .tactic-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 }

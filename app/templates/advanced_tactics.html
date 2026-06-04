@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+
+{% block title %}Advanced Tactic Cards{% endblock %}
+
+{% block content %}
+  <section class="page-head">
+    <div>
+      <p class="eyebrow">RotE Cinematic Combat</p>
+      <h1>Advanced tactic cards</h1>
+    </div>
+    <input data-search type="search" placeholder="Search tactics">
+  </section>
+
+  {% for group in groups %}
+    <section class="band tactic-section" data-section data-tactic-group="{{ group.key }}">
+      <div class="section-head">
+        <h2>{{ group.label }}</h2>
+        <div class="section-actions">
+          <span>{{ group.cards|length }} cards</span>
+          <button class="reset-button" type="button" data-reset-tactics="{{ group.key }}">Reset</button>
+        </div>
+      </div>
+      <div class="tactic-grid">
+        {% for card in group.cards %}
+          <article
+            class="card-tile tactic-card"
+            data-card
+            data-tactic-card="{{ card.id }}"
+            data-search-text="{{ (card.title ~ ' ' ~ card.description ~ ' ' ~ card.side ~ ' ' ~ card.arena)|lower }}">
+            <button class="tactic-toggle" type="button" aria-pressed="false" aria-label="Mark {{ card.title }} used">
+              <div class="card-frame">
+                <div
+                  class="card-image"
+                  role="img"
+                  aria-label="{{ card.title }}"
+                  style="--cols: {{ card.sprite.cols }}; --rows: {{ card.sprite.rows }}; --x: {{ card.sprite.x }}; --y: {{ card.sprite.y }}; background-image: url('{{ url_for('static', path=card.sprite.path) }}');">
+                </div>
+              </div>
+              <div class="card-meta">
+                <h3>{{ card.title }}</h3>
+                <div class="badges">
+                  <span>RotE</span>
+                  <span>{{ card.arena|title }}</span>
+                  <span>{{ card.side|title }}</span>
+                </div>
+              </div>
+            </button>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
+
+  <script>
+    (() => {
+      const usedKey = "rebellion-helper:used-advanced-tactics";
+      const readUsed = () => {
+        try {
+          return new Set(JSON.parse(window.localStorage.getItem(usedKey) || "[]"));
+        } catch {
+          return new Set();
+        }
+      };
+      const writeUsed = (used) => {
+        window.localStorage.setItem(usedKey, JSON.stringify([...used]));
+      };
+      const used = readUsed();
+
+      const applyCardState = (card, isUsed) => {
+        card.classList.toggle("is-used", isUsed);
+        const button = card.querySelector(".tactic-toggle");
+        if (button) {
+          button.setAttribute("aria-pressed", String(isUsed));
+          const title = card.querySelector("h3")?.textContent || "card";
+          button.setAttribute("aria-label", `Mark ${title} ${isUsed ? "available" : "used"}`);
+        }
+      };
+
+      document.querySelectorAll("[data-tactic-card]").forEach((card) => {
+        const id = card.dataset.tacticCard;
+        applyCardState(card, used.has(id));
+        card.querySelector(".tactic-toggle")?.addEventListener("click", () => {
+          if (used.has(id)) {
+            used.delete(id);
+          } else {
+            used.add(id);
+          }
+          writeUsed(used);
+          applyCardState(card, used.has(id));
+        });
+      });
+
+      document.querySelectorAll("[data-reset-tactics]").forEach((button) => {
+        button.addEventListener("click", () => {
+          const group = button.dataset.resetTactics;
+          document.querySelectorAll(`[data-tactic-group="${group}"] [data-tactic-card]`).forEach((card) => {
+            used.delete(card.dataset.tacticCard);
+            applyCardState(card, false);
+          });
+          writeUsed(used);
+        });
+      });
+    })();
+  </script>
+{% endblock %}
