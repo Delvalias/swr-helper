@@ -65,7 +65,11 @@ ACTION_SET_CONFIG = {
         {
             "name": "Luke and Wedge",
             "leaders": ["Luke Skywalker", "Wedge Antilles"],
-            "actions": [("SON OF SKYWALKER", "base"), ("TARGET THE STAR DESTROYERS", "base"), ("ONE IN A MILLION", "base")],
+            "actions": [
+                ("TARGET THE STAR DESTROYERS", "base"),
+                ("ONE IN A MILLION", "base"),
+                ("SON OF SKYWALKER", "rote"),
+            ],
         },
         {
             "name": "Ackbar and Madine",
@@ -83,14 +87,14 @@ ACTION_SET_CONFIG = {
             "actions": [("NOBLE SACRIFICE", "base"), ("INDEPENDENT OPERATION", "base"), ("UNDERCOVER", "base")],
         },
         {
-            "name": "Jyn and Cassian",
-            "leaders": ["Jyn Erso", "Cassian Andor"],
-            "actions": [("HE MEANS WELL", "rote"), ("SOMETHING TO FIGHT FOR", "rote"), ("TRUST IN THE FORCE", "rote")],
+            "name": "Jyn and Chirrut",
+            "leaders": ["Jyn Erso", "Chirrut Imwe"],
+            "actions": [("SOMETHING TO FIGHT FOR", "rote"), ("BAZE'S LOYALTY", "rote"), ("TRUST IN THE FORCE", "rote")],
         },
         {
-            "name": "Chirrut and Saw",
-            "leaders": ["Chirrut Imwe", "Saw Gerrera"],
-            "actions": [("SON OF SKYWALKER", "rote"), ("BAZE'S LOYALTY", "rote"), ("UNDER THE RADAR", "rote")],
+            "name": "Cassian and Saw",
+            "leaders": ["Cassian Andor", "Saw Gerrera"],
+            "actions": [("HE MEANS WELL", "rote"), ("UNDER THE RADAR", "rote")],
         },
     ],
     "imperial": [
@@ -107,17 +111,21 @@ ACTION_SET_CONFIG = {
         {
             "name": "Ozzel and Jerjerrod",
             "leaders": ["Admiral Ozzel", "Moff Jerjerrod"],
-            "actions": [("FULLY OPERATIONAL", "base"), ("PROCEEDING AS PLANNED", "base"), ("SCOUTING MISSION", "base")],
+            "actions": [("CATCH THEM BY SURPRISE", "base"), ("FULLY OPERATIONAL", "base"), ("PROCEEDING AS PLANNED", "base")],
         },
         {
             "name": "Yularen and Soontir",
             "leaders": ["Colonel Yularen", "Soontir Fel"],
-            "actions": [("CATCH THEM BY SURPRISE", "base"), ("LOCAL RUMORS", "base"), ("GOOD INTEL", "base")],
+            "actions": [
+                ("SCOUTING MISSION", "base"),
+                ("LOCAL RUMORS", "base"),
+                ("GOOD INTEL", "rote"),
+            ],
         },
         {
             "name": "Motti and Jabba",
             "leaders": ["Admiral Motti", "Jabba the Hutt"],
-            "actions": [("AMBITIONS OF POWER", "rote"), ("POST BOUNTY", "rote"), ("GOOD INTEL", "rote")],
+            "actions": [("AMBITIONS OF POWER", "rote"), ("POST BOUNTY", "rote")],
         },
         {
             "name": "Krennic and Krennic's Finest",

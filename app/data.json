@@ -279,25 +279,6 @@
           ],
           "actions": [
             {
-              "id": 27106,
-              "title": "Son of Skywalker",
-              "description": "Action",
-              "source": "base",
-              "leader": "",
-              "vader_icon": false,
-              "include_in_base": false,
-              "skill": "unknown",
-              "sprite": {
-                "path": "/assets/sheets/271.jpg",
-                "deck": 271,
-                "index": 6,
-                "x": 6,
-                "y": 0,
-                "cols": 10,
-                "rows": 2
-              }
-            },
-            {
               "id": 27107,
               "title": "Target the Star Destroyers",
               "description": "Action",
@@ -333,6 +314,25 @@
                 "y": 0,
                 "cols": 10,
                 "rows": 2
+              }
+            },
+            {
+              "id": 32010,
+              "title": "Son of Skywalker",
+              "description": "ROTE, Action, Rebel",
+              "source": "rote",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/320.jpg",
+                "deck": 320,
+                "index": 10,
+                "x": 4,
+                "y": 1,
+                "cols": 6,
+                "rows": 3
               }
             }
           ]
@@ -566,7 +566,7 @@
           ]
         },
         {
-          "name": "Jyn and Cassian",
+          "name": "Jyn and Chirrut",
           "leaders": [
             {
               "name": "Jyn Erso",
@@ -575,32 +575,13 @@
               "image": "/assets/leaders/jyn-erso.jpg"
             },
             {
-              "name": "Cassian Andor",
-              "role": "Rebel Admiral",
+              "name": "Chirrut Imwe",
+              "role": "Rebel General",
               "source": "rote",
-              "image": "/assets/leaders/cassian-andor.jpg"
+              "image": "/assets/leaders/chirrut-imwe.jpg"
             }
           ],
           "actions": [
-            {
-              "id": 32012,
-              "title": "He Means Well",
-              "description": "ROTE, Action, Rebel",
-              "source": "rote",
-              "leader": "",
-              "vader_icon": false,
-              "include_in_base": false,
-              "skill": "unknown",
-              "sprite": {
-                "path": "/assets/sheets/320.jpg",
-                "deck": 320,
-                "index": 12,
-                "x": 0,
-                "y": 2,
-                "cols": 6,
-                "rows": 3
-              }
-            },
             {
               "id": 32013,
               "title": "Something to Fight for",
@@ -616,6 +597,25 @@
                 "index": 13,
                 "x": 1,
                 "y": 2,
+                "cols": 6,
+                "rows": 3
+              }
+            },
+            {
+              "id": 32011,
+              "title": "Baze's Loyalty",
+              "description": "ROTE, Action, Rebel",
+              "source": "rote",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/320.jpg",
+                "deck": 320,
+                "index": 11,
+                "x": 5,
+                "y": 1,
                 "cols": 6,
                 "rows": 3
               }
@@ -642,13 +642,13 @@
           ]
         },
         {
-          "name": "Chirrut and Saw",
+          "name": "Cassian and Saw",
           "leaders": [
             {
-              "name": "Chirrut Imwe",
-              "role": "Rebel General",
+              "name": "Cassian Andor",
+              "role": "Rebel Admiral",
               "source": "rote",
-              "image": "/assets/leaders/chirrut-imwe.jpg"
+              "image": "/assets/leaders/cassian-andor.jpg"
             },
             {
               "name": "Saw Gerrera",
@@ -659,8 +659,8 @@
           ],
           "actions": [
             {
-              "id": 32010,
-              "title": "Son of Skywalker",
+              "id": 32012,
+              "title": "He Means Well",
               "description": "ROTE, Action, Rebel",
               "source": "rote",
               "leader": "",
@@ -670,28 +670,9 @@
               "sprite": {
                 "path": "/assets/sheets/320.jpg",
                 "deck": 320,
-                "index": 10,
-                "x": 4,
-                "y": 1,
-                "cols": 6,
-                "rows": 3
-              }
-            },
-            {
-              "id": 32011,
-              "title": "Baze's Loyalty",
-              "description": "ROTE, Action, Rebel",
-              "source": "rote",
-              "leader": "",
-              "vader_icon": false,
-              "include_in_base": false,
-              "skill": "unknown",
-              "sprite": {
-                "path": "/assets/sheets/320.jpg",
-                "deck": 320,
-                "index": 11,
-                "x": 5,
-                "y": 1,
+                "index": 12,
+                "x": 0,
+                "y": 2,
                 "cols": 6,
                 "rows": 3
               }
@@ -1105,6 +1086,25 @@
           ],
           "actions": [
             {
+              "id": 27610,
+              "title": "Catch Them By Surprise",
+              "description": "Action\n",
+              "source": "base",
+              "leader": "",
+              "vader_icon": false,
+              "include_in_base": false,
+              "skill": "unknown",
+              "sprite": {
+                "path": "/assets/sheets/276.jpg",
+                "deck": 276,
+                "index": 10,
+                "x": 0,
+                "y": 1,
+                "cols": 10,
+                "rows": 2
+              }
+            },
+            {
               "id": 27611,
               "title": "Fully Operational",
               "description": "Action",
@@ -1141,25 +1141,6 @@
                 "cols": 10,
                 "rows": 2
               }
-            },
-            {
-              "id": 27613,
-              "title": "Scouting Mission",
-              "description": "Action\n",
-              "source": "base",
-              "leader": "",
-              "vader_icon": false,
-              "include_in_base": false,
-              "skill": "unknown",
-              "sprite": {
-                "path": "/assets/sheets/276.jpg",
-                "deck": 276,
-                "index": 13,
-                "x": 3,
-                "y": 1,
-                "cols": 10,
-                "rows": 2
-              }
             }
           ]
         },
@@ -1181,8 +1162,8 @@
           ],
           "actions": [
             {
-              "id": 27610,
-              "title": "Catch Them By Surprise",
+              "id": 27613,
+              "title": "Scouting Mission",
               "description": "Action\n",
               "source": "base",
               "leader": "",
@@ -1192,8 +1173,8 @@
               "sprite": {
                 "path": "/assets/sheets/276.jpg",
                 "deck": 276,
-                "index": 10,
-                "x": 0,
+                "index": 13,
+                "x": 3,
                 "y": 1,
                 "cols": 10,
                 "rows": 2
@@ -1219,22 +1200,22 @@
               }
             },
             {
-              "id": 27615,
+              "id": 32004,
               "title": "Good Intel",
-              "description": "Action\n",
-              "source": "base",
+              "description": "ROTE, Action, Imperial",
+              "source": "rote",
               "leader": "",
               "vader_icon": false,
               "include_in_base": false,
               "skill": "unknown",
               "sprite": {
-                "path": "/assets/sheets/276.jpg",
-                "deck": 276,
-                "index": 15,
-                "x": 5,
-                "y": 1,
-                "cols": 10,
-                "rows": 2
+                "path": "/assets/sheets/320.jpg",
+                "deck": 320,
+                "index": 4,
+                "x": 4,
+                "y": 0,
+                "cols": 6,
+                "rows": 3
               }
             }
           ]
@@ -1290,25 +1271,6 @@
                 "index": 6,
                 "x": 0,
                 "y": 1,
-                "cols": 6,
-                "rows": 3
-              }
-            },
-            {
-              "id": 32004,
-              "title": "Good Intel",
-              "description": "ROTE, Action, Imperial",
-              "source": "rote",
-              "leader": "",
-              "vader_icon": false,
-              "include_in_base": false,
-              "skill": "unknown",
-              "sprite": {
-                "path": "/assets/sheets/320.jpg",
-                "deck": 320,
-                "index": 4,
-                "x": 4,
-                "y": 0,
                 "cols": 6,
                 "rows": 3
               }
